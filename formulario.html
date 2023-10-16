@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+     <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <title>Cadastro de Produtos</title>
+
+        <link rel="stylesheet" type="text/css" href="/estilo.css">
+
+</head>
+
+
+<body>
+    
+    <main>
+
+        <div class="container">
+
+            <div class="box">
+
+                <h1>Formulário de Cadastro</h1>
+
+
+                    <form class="formulario" action="/adicionar" method="post">
+                
+                       <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #4caf50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #45a049;
+        }
+    </style>
+
+
+                        <div class="field">
+
+                            
+                            <input class="input" type="text" id="descricao" name="descricao" required placeholder="Descrição"> <br>
+
+                        </div>
+
+                        <div class="field">
+
+                            <input class="input"  type="text" id="quant_estoque" name="quant_estoque" required placeholder="Quantidade no estoque"> <br>
+
+                        </div>
+
+                        <div class="field">
+
+                            
+                            <input class="input"  type="text" id="valor" name="valor" required placeholder="Valor"> <br>
+
+                        </div>
+
+                        <div class="field">
+
+                            <input class="input"  type="text" id="peso" name="peso" required placeholder="Peso"> <br>
+
+                        </div>
+
+                        <div class="field">
+
+                            <input class="input"  type="text" id="medida" name="medida" required placeholder="Medida"> <br>
+
+                        </div>
+
+                        <div class="field">
+
+                            <input class="input"  type="text" id="localizacao" name="localizacao" required placeholder="Localização"> <br>
+
+                        </div>
+
+
+                        
+                        <input type="submit" value="Cadastrar">
+
+                        <h3><a href="/">Voltar para home</a><h3></h3>
+            </div>
+    </div>
+
+    </form>   
+
+</main>
+
+</body>
+</html>
